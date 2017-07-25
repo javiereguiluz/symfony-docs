@@ -37,7 +37,7 @@ tags:
     When using a controller instead of a URL, you must enable the Symfony
     ``fragments`` configuration:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

@@ -310,7 +310,7 @@ the :ref:`user password encoding <security-encoding-user-password>` article.
     If you decide to NOT use annotation routing (shown above), then you'll
     need to create a route to this controller:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

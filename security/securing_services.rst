@@ -223,7 +223,7 @@ documentation.
     services at once. To do so, set the ``secure_all_services`` configuration
     option to true:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

@@ -63,7 +63,7 @@ In the development configuration file, change the ``transport`` setting to
             mailer_user:     your_gmail_username
             mailer_password: your_gmail_password
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

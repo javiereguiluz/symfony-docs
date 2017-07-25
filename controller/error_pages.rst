@@ -287,7 +287,7 @@ In that case, you might want to override one or both of the ``showAction()`` and
     may configure a service to pass the Twig environment and the ``debug`` flag
     to the constructor.
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

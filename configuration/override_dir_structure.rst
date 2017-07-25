@@ -168,7 +168,7 @@ file:
     If you use the AsseticBundle, you need to configure the ``read_from`` option
     to point to the correct ``web`` directory:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

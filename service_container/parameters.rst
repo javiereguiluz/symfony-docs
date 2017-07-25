@@ -114,7 +114,7 @@ and hidden with the service definition:
     The percent sign inside a parameter or argument, as part of the string,
     must be escaped with another percent sign:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

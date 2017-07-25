@@ -57,7 +57,7 @@ information. By convention, this information is usually configured in an
     The parameters defined in that file are referenced by the main configuration
     file when setting up Doctrine:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 
@@ -154,7 +154,7 @@ can automatically generate an empty ``test_project`` database for you:
     If you want to use SQLite as your database, you need to set the path
     where your database file should be stored:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

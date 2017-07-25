@@ -212,7 +212,7 @@ this code and changing the environment string.
     parameter used, for example, to turn logging on or off when using the
     Doctrine DBAL:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

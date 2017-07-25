@@ -60,7 +60,7 @@ in that directory are parsed and put into the routing.
     You can also include other routing configuration files, this is often
     used to import the routing of third party bundles:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: yaml
 

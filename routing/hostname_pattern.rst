@@ -258,7 +258,7 @@ instance, if you want to match both ``m.example.com`` and
     You can also use service parameters if you do not want to hardcode the
     hostname:
 
-    .. configuration-block::
+.. configuration-block::
 
         .. code-block:: php-annotations
 
