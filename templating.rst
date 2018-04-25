@@ -20,6 +20,16 @@ code.
 .. index::
    single: Templating; What is a template?
 
+Installation
+------------
+
+In applications using :doc:`Symfony Flex </setup/flex>`, run this command to
+install the Twig templating engine used in this article:
+
+.. code-block:: terminal
+
+    $ composer require twig
+
 Templates
 ---------
 
