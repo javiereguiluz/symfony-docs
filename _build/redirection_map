@@ -479,3 +479,6 @@
 /components/translation/custom_formats https://github.com/symfony/translation
 /components/translation/custom_message_formatter https://github.com/symfony/translation
 /components/routing https://github.com/symfony/routing
+/components/event_dispatcher/container_aware_dispatcher https://github.com/symfony/event-dispatcher
+/components/event_dispatcher/immutable_dispatcher https://github.com/symfony/event-dispatcher
+/components/event_dispatcher/traceable_dispatcher https://github.com/symfony/event-dispatcher

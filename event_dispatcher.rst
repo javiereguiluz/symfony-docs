@@ -312,22 +312,26 @@ configurations.
 
     The ``AddEventAliasesPass`` class was introduced in Symfony 4.4.
 
-Debugging Event Listeners
--------------------------
+Debugging
+---------
 
-You can find out what listeners are registered in the event dispatcher
-using the console. To show all events and their listeners, run:
+Symfony provides several utilities to help you debug any issues when using events.
+First, the :doc:`Symfony Profiler </profiler>` includes a dedicated panel for
+events, showing which events were called and which not during the request.
+
+In addition, the ``debug:event-dispatcher`` command provides all the information
+about events:
 
 .. code-block:: terminal
 
+    // display all defined events and their listeners
     $ php bin/console debug:event-dispatcher
 
-You can get registered listeners for a particular event by specifying
-its name:
+    // display all listeners associated to a given event
+    $ php bin/console debug:event-dispatcher kernel.request
 
-.. code-block:: terminal
-
-    $ php bin/console debug:event-dispatcher kernel.exception
+    // when using classes as event names, escape the \\ separator
+    $ php bin/console debug:event-dispatcher App\\Events\\CommentCreatedEvent
 
 Learn more
 ----------
