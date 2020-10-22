@@ -1,4 +1,6 @@
 /_build/doctrees
 /_build/spelling
 /_build/html
+/_build/vendor
+/_build/output
 *.pyc
