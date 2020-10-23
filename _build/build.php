@@ -32,6 +32,7 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
         //$vars['SYMFONY_VERSION'] = '4.4';
 
         $process = new Process($command, null, $vars);
+        $process->setTimeout(3600);
         $process->run();
 
         if (!$process->isSuccessful()) {
