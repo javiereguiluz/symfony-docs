@@ -1469,7 +1469,6 @@ Authentication (Identifying/Logging in the User)
     security/form_login_setup
     security/reset_password
     security/json_login_setup
-    security/guard_authentication
     security/password_migration
     security/auth_providers
     security/user_provider
@@ -1478,7 +1477,6 @@ Authentication (Identifying/Logging in the User)
     security/impersonating_user
     security/user_checkers
     security/named_hashers
-    security/multiple_guard_authenticators
     security/firewall_restriction
     security/csrf
     security/custom_authentication_provider
