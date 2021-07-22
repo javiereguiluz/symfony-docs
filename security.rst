@@ -452,18 +452,8 @@ you to control *every* part of the authentication process (see the next section)
 Guard Authenticators
 ~~~~~~~~~~~~~~~~~~~~
 
-.. deprecated:: 5.3
-
-    Guard authenticators are deprecated since Symfony 5.3 in favor of the
-    :doc:`new authenticator-based system </security/authenticator_manager>`.
-
-A Guard authenticator is a class that gives you *complete* control over your
-authentication process. There are many different ways to build an authenticator;
-here are a few common use-cases:
-
-* :doc:`/security/form_login_setup`
-* :doc:`/security/guard_authentication` – see this for the most detailed
-  description of authenticators and how they work
+Guard authenticators are deprecated in favor of the
+:doc:`new authenticator-based system </security/authenticator_manager>`.
 
 Limiting Login Attempts
 ~~~~~~~~~~~~~~~~~~~~~~~
