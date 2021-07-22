@@ -3504,7 +3504,6 @@ to know their differences.
 
 .. _`HTTP Host header attacks`: https://www.skeletonscribe.net/2013/05/practical-http-host-header-attacks.html
 .. _`Security Advisory Blog post`: https://symfony.com/blog/security-releases-symfony-2-0-24-2-1-12-2-2-5-and-2-3-3-released#cve-2013-4752-request-gethost-poisoning
-.. _`Doctrine Cache`: https://www.doctrine-project.org/projects/doctrine-cache/en/current/index.html
 .. _`egulias/email-validator`: https://github.com/egulias/EmailValidator
 .. _`RFC 5322`: https://tools.ietf.org/html/rfc5322
 .. _`PhpStormProtocol`: https://github.com/aik099/PhpStormProtocol
