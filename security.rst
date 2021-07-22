@@ -1426,7 +1426,7 @@ Frequently Asked Questions
 **Can I have Multiple Firewalls?**
     Yes! But it's usually not necessary. Each firewall is like a separate security
     system. And so, unless you have *very* different authentication needs, one
-    firewall usually works well. With :doc:`Guard authentication </security/guard_authentication>`,
+    firewall usually works well. With the :doc:`authenticator-based security </security/authenticator_manager>`,
     you can create various, diverse ways of allowing authentication (e.g. form login,
     API key authentication and LDAP) all under the same firewall.
 
