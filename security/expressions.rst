@@ -21,6 +21,7 @@ and ``#[IsGranted()]`` attribute also accept an
         namespace App\Controller;
 
         use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+        use Symfony\Component\Security\Http\Attribute\IsGranted;
         use Symfony\Component\ExpressionLanguage\Expression;
         use Symfony\Component\HttpFoundation\Response;
 
