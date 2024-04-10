@@ -232,13 +232,13 @@ The constructor also allows setting a timezone or custom referenced date::
 The ``DatePoint`` class also provides a named constructor to create dates from
 timestamps::
 
-    $dateOfFirstCommitOfSymfonyProject = DatePoint::createFromTimestamp('1129645656');
+    $dateOfFirstCommitOfSymfonyProject = DatePoint::createFromTimestamp(1129645656);
     // equivalent to:
-    // $dateOfFirstCommitOfSymfonyProject = (new \DateTimeImmutable())->setTimestamp('1129645656');
+    // $dateOfFirstCommitOfSymfonyProject = (new \DateTimeImmutable())->setTimestamp(1129645656);
 
     // negative timestamps (for dates before January 1, 1970) and fractional timestamps
     // (for high precision sub-second datetimes) are also supported
-    $dateOfFirstMoonLanding('-14182940');
+    $dateOfFirstMoonLanding = DatePoint::createFromTimestamp(-14182940);
 
 .. versionadded:: 7.1
 
