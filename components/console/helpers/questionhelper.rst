@@ -381,6 +381,36 @@ convenient for passwords::
             return Command::SUCCESS;
         }
 
+Setting a Timeout
+~~~~~~~~~~~~~~~~~
+
+When the command is run in interactive mode (i.e., when you haven't passed
+the ``--no-interaction`` global option to the command), you can set a timeout
+in seconds for the maximum time the command will wait for the user's reply::
+
+    use Symfony\Component\Console\Question\Question;
+
+    // ...
+    public function __invoke(InputInterface $input, OutputInterface $output): int
+    {
+        // ...
+        $helper = new QuestionHelper();
+
+        $question = new Question('What is the database password?');
+        $question->setTimeout(10);  // 10 seconds
+
+        $password = $helper->ask($input, $output, $question);
+
+        // ...
+    }
+
+If the user doesn't answer within the given time, the command will exit with
+an exception of type ``MissingInputException``.
+
+.. versionadded:: 7.4
+
+    The feature to set a timeout in the ``QuestionHelper`` was introduced in Symfony 7.4.
+
 Normalizing the Answer
 ----------------------
 
